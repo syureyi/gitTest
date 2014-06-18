@@ -15,7 +15,7 @@ PREFIX=/usr/local
 SHARED=-shared
 OBJ=o
 PROJECT_NAME=openh264
-
+  
 
 ifeq (,$(wildcard ./gtest))
 HAVE_GTEST=No
